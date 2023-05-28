@@ -3,7 +3,8 @@ import { Path, Svg } from 'react-native-svg';
 import React from 'react';
 import { moderateScale } from 'react-native-size-matters';
 import getStyleObj from './styles';
-import { ChatBubbleProps } from '..';
+import { ChatBubbleProps } from 'react-native-chat-bubble';
+
 
 
 const ChatBubble: React.FC<ChatBubbleProps> = ({

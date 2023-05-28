@@ -7,16 +7,22 @@
 
 React Native Chat bubble is a simple lightweight component for your React Native Applications which uses [react-native-svg](https://www.npmjs.com/package/react-native-svg) and [react-native-size-matters](https://www.npmjs.com/package/react-native-size-matters) to create a highly customizable chat bubble for you with curved tail or without.
 
-This is a dynamic HOC 
-
 ## Installation
+
+``react-native-chat-bubble`` has two peer dependencies:
+
+``react-native-svg`` and ``react-native-size-matters``
+
+You must install these alongside ``react-native-chat-bubble``.
 
 Install the package using npm or yarn:
 
 ```bash
 npm install react-native-chat-bubble react-native-svg react-native-size-matters
-yarn add react-native-chat-bubble react-native-svg react-native-size-matters
+```
 
+```bash
+yarn add react-native-chat-bubble react-native-svg react-native-size-matters
 ```
 If you're using Expo, make sure to use the expo install command to install these packages to ensure compatibility with your Expo SDK version:
 
@@ -57,33 +63,33 @@ If you don't pass onPress function, the chat bubble wrapper will be a View from 
 
 If you pass the onPress function, the package will wrap the ChatBubble in Pressable from react-native to call your function when the user presses the message, so you can also pass the rest of the PressableProps, which you can check [here](https://github.com/facebook/react-native-website/blob/main/docs/pressable.md)
 
-### isOwnMessage: `boolean`
+### isOwnMessage: ``boolean``
 
 Prop to identify the message and therefore the alignment.
 
-### children: `ReactNode`
+### children: ``ReactNode``
 
 The message content.
 
-## bubbleColor: `string`
+## bubbleColor: ``string``
 Color of your chat bubble. Defaults to #1084ff for own messages and grey for others.
 
-## tailColor: `string`
+## tailColor: ``string``
 Color of the tail of the chat bubble. If you pass a bubbleColor prop and your tail and the bubble are the same color, you don't need to use this prop, they'll match automatically.
 
-## withTail: `boolean`
+## withTail: ``boolean``
 Prop which defines if the tail is displayed with your message. Defaults to `true`.
 
-## withTail: `boolean`
+## withTail: ``boolean``
 Prop which defines if the tail is displayed with your message. Defaults to `true`.
 
-## hitSlop:` ({top: number, bottom: number, left: number, right: number})`
+## hitSlop:``({top: number, bottom: number, left: number, right: number})``
 increase the touchable area of the chat bubble.
 
-## maxWidth:`number`
+## maxWidth:``number``
 Maximum width of your chat bubble. When adjusting maxWidth this prop should be used instead of a style override, in order to use `moderateScale`. Defaults to `250`
 
-## style: `StyleProp<ViewStyle>`
+## style: ``StyleProp<ViewStyle>``
 Additional styles or style overrides for the chat bubble.
 
 ## License

@@ -15,6 +15,28 @@
     "url": "https://github.com/GFean/react-native-chat-bubble.git"
   },
   "license": "MIT",
+  "keywords": [
+        " React Native",
+        "Chat",
+        "Bubble",
+        "Chat UI",
+        "React Native Components",
+        "Message Bubble",
+        "Chat Application",
+        "React Native App",
+        "React Native SVG",
+        "React Native Size Matters",
+        "Mobile Chat",
+        "Chat Bubble Component",
+        "React Native Chat App",
+        "Mobile Messaging",
+        "React Native Development",
+        "JavaScript",
+        "Mobile App Development",
+        "Interactive Chat Bubble",
+        "Customizable Chat Bubble",
+        "Flexible Chat Bubble"
+  ],
   "types": "index.d.ts",
   "bugs": {
     "url": "https://github.com/GFean/react-native-chat-bubble/issues"

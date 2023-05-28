@@ -1,0 +1,26 @@
+{
+  "name": "react-native-chat-bubble",
+  "version": "1.0.0",
+  "description": "\"chat bubble for react-native\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GFean/react-native-chat-bubble.git"
+  },
+  "author": "George Fean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GFean/react-native-chat-bubble/issues"
+  },
+  "homepage": "https://github.com/GFean/react-native-chat-bubble#readme",
+  "dependencies": {
+    "@types/react": "^18.2.7",
+    "react": "^18.2.0",
+    "react-native": "^0.71.8",
+    "react-native-size-matters": "^0.4.0",
+    "react-native-svg": "^13.9.0"
+  }
+}

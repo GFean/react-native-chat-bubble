@@ -1,6 +1,9 @@
 # React Native Chat Bubble
 
-
+<div>
+  <img src="images/demo_android.png" alt="Android Demo" width="400" />
+  <img src="images/demo_ios.png" alt="iOS Demo" width="400" />
+</div>
 
 React Native Chat bubble is a simple lightweight component for your React Native Applications which uses [react-native-svg](https://www.npmjs.com/package/react-native-svg) and [react-native-size-matters](https://www.npmjs.com/package/react-native-size-matters) to create a highly customizable chat bubble for you with curved tail or without.
 
